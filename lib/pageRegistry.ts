@@ -32,7 +32,18 @@ export const PAGE_REGISTRY: readonly PageDefinition[] = [
     iconName: "User",
     accentColor: "green",
     gradient: "from-green-500/20 via-emerald-500/10 to-transparent",
-  }
+  },
+  {
+    id: "speakers",
+    route: "/screen/speakers",
+    title: "Speaker 1",
+    subtitle: "Meet Our Speakers",
+    category: "Speakers",
+    description: "A sequential display of all 12 speaker profiles with photos, titles, and bios.",
+    iconName: "Users",
+    accentColor: "emerald",
+    gradient: "from-emerald-500/20 via-green-500/10 to-transparent",
+  },
 ] as const;
 
 export const DEFAULT_ROUTE = "/screen/sample";
